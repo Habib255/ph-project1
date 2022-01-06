@@ -1,5 +1,6 @@
 *{
-    padding: %;
+    padding:0%;
+    
    
 }
 body{
@@ -61,7 +62,7 @@ body{
     display: inline;
 }
 .redcolor{
-    color: RED;
+    color: rgb(139, 64, 29);
 }
 
 
@@ -122,4 +123,48 @@ body{
 }
 .workdetails{
     margin-top: 100px;
+}
+
+
+
+
+.community{
+    display: flex;
+    margin: 80px;
+}
+.imageproject img{
+    width: 55%;
+    float: right;
+    padding-right: 100px;
+
+}
+.workdetails{
+    margin-top: 100px;
+}
+.imageproject{
+    background-image: url(/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: right bottom
+  
+}
+footer{
+    background-color: black;
+  
+}
+.footer-heading{
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 10px;
+}
+.lastpara{
+    color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.last-heading{
+padding:50px 600px;
+} 
+.contact-link a{
+    margin-left:250px;
 }
