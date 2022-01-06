@@ -42,6 +42,7 @@ body{
 }
 .link-botton{
     text-decoration: none;
+    color: snow;
    background-color: rgb(247, 92, 92);
     border-radius: 5px;
    padding: 8px 25px;
@@ -51,16 +52,25 @@ body{
     padding-top: 20px;
 }
 .third-heading{
+    font-size: 40px;
     text-align: center;
-    padding-top: 80px
+    padding-top: 80px;
+ 
+}
+.top-middle{
+    display: inline;
+}
+.redcolor{
+    color: RED;
 }
 
 
 .middle{
     display: flex;
+    margin: auto 60px;
 }
 .paragraph{
-    padding: 20px;
+    padding: 13px;
     text-align: justify;
 }
 .goal img{
@@ -85,4 +95,31 @@ body{
 .same-width{
     margin: 30px;
     padding: 30px;
+    border-radius: 10px;
+    height: auto;
+}
+.small{
+  margin-left: 10px;
+}
+.heading3{
+    font-size: 40px;
+}
+
+
+.workflow{
+    display: flex;
+    margin: 80px;
+    background-image: url(/shapes/shape-1.png);
+    background-repeat: no-repeat;
+   background-size: 300px 300px;
+   background-position-y: 50px;
+}
+.imagegirl img{
+    width: 55%;
+    float: right;
+    padding-right: 250px;
+
+}
+.workdetails{
+    margin-top: 100px;
 }
