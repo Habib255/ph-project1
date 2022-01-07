@@ -110,7 +110,7 @@ body{
 .workflow{
     display: flex;
     margin: 80px;
-    background-image: url(/shapes/shape-1.png);
+    background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat;
    background-size: 300px 300px;
    background-position-y: 50px;
@@ -142,7 +142,7 @@ body{
     margin-top: 100px;
 }
 .imageproject{
-    background-image: url(/shapes/shape-1.png);
+    background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 250px 250px;
     background-position: right bottom
